@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+      
+        <title>SidtheAnalyst</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='scripts.js') }}">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        
+        <link href="https://fonts.googleapis.com/css2?family=Birthstone+Bounce&family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=BenchNine&family=Big+Shoulders+Display:wght@600&family=Monoton&family=Notable&family=Orbitron:wght@500&family=Revalia&family=Sigmar+One&family=Zen+Dots&display=swap" rel="stylesheet">        <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    </head>
+
+    <body>
+
+      <div class="container">
+
+        <div class="slide">
+            <div class="typewrite" data-period="1000" data-type='[ "Hello World", "I am Sid..", "Analyst", "SAP" ]'>
+            <span class="wrap"></span>
+            </div>
+        </div>
+
+        <div class="slide">
+          
+          <div class="container5">
+              
+            <div class="avatar"> 
+                <img src="/static/mypics.JPG" alt="mypic" title="Yup, It's Me!" />
+            </div>
+        </div>
+     
+        </div>
+
+        <div class="slide">
+          <div class="w3-container about">
+          <p>Who am I?</p>
+          I am SIDDHESH BHABAD, 25 years old post graduate student looking for my first job placement. I hold MCA and B.Sc. Maths degrees from reputed
+          autonomous institutes of the country.<br><br>
+          Holds major certifications in Systems Applications and Products[SAP] and Data Analytics field. Successfully completed Sales and Distribution Module in SAP.
+          Data visualization is my additional skill in data analytics.<br><br>
+          Want to hire a hard working individual? Contact me..
+
+          </div>
+        </div>
+
+        <div class="slide">
+
+          <!-- Resume-->
+          <div class="w3-container w3-center w3-padding-64">
+            <p class="logo">SB</p>
+            <h1 class="restxt w3-text-light-grey">Checkout my resume</h1>
+            <br><br>
+            <form action="{{ url_for('.download_file') }}" method="GET">
+              <button class="w3-button w3-xxlarge w3-text-light-black w3-light-grey w3-hover-white">Download</button>
+            </form>
+            
+        </div>
+
+        </div>
+        
+        <!-- Footer-->
+        <div class="slide">
+
+          <div class="left-half">
+            <article>
+                <div class="w3-padding-24">
+                <p><i class="fa fa-envelope w3-xxlarge cm"></i></p>
+                <p class="w3-text-light-grey">sidtheanalyst@gmail.com</p>
+                </div>
+                <div class="w3-padding-24">
+                <p><i class="fa fa-map-marker w3-xxlarge cm"></i></p>
+                <p class="w3-text-light-grey">Navi Mumbai, India</p>
+                </div>
+                <div class="w3-padding-24">
+                <p><i class="fa fa-phone w3-xxlarge cm"></i></p>
+                <p class="w3-text-light-grey">+91-8424988452</p>
+                </div>
+            </article>
+          </div>
+          
+          <div class="right-half">
+            <article>
+              <div class="w3-container">
+                <a class="social-link" href="#!"><i class="fab fa-facebook sm"></i></a>
+                <a class="social-link" href="#!"><i class="fab fa-instagram sm"></i></a>
+                <a class="social-link" href="#!"><i class="fab fa-twitter sm"></i></a>                  
+                <a class="social-link" href="#!"><i class="fab fa-github sm"></i></a>              
+                <a class="social-link" href="#!"><i class="fab fa-linkedin sm"></i></a>
+          </div>
+          <br><br>
+          <div class="owner">Copyright &copy; SidtheAnalyst</div>
+            </article>
+          </div>  
+        
+        </div>
+
+        <script  src="{{ url_for('static', filename='scripts.js') }}"></script>
+          
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+
+
+
+-->
