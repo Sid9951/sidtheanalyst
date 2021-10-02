@@ -54,7 +54,7 @@ body {
 @media screen and (max-width: 600px) {
   div.typewrite {
     font-size: 29px;
-    font-family: 'Impact', cursive;
+    font-family: 'Impact';
   }
 }
 
@@ -176,7 +176,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   .about {
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Orbitron', sans-serif;
     color:  #F34A4E;
   }
