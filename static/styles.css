@@ -78,7 +78,7 @@ body {
 }
 
 .cm{
-  color: #F34A4E;
+  color: #fde5e6;
 }
 
 .owner {
@@ -107,12 +107,12 @@ h1 {
 
 
 .left-half{
-  width: 50%; 
+  width: 60%; 
   float:left; 
 }
 
 .right-half{
-  width: 50%; 
+  width: 40%; 
   float:right; 
 }
 
