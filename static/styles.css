@@ -55,6 +55,7 @@ body {
   div.typewrite {
     font-size: 28px;
     font-family: 'Notable', sans-serif;
+    text-align: center;
   }
 }
 
