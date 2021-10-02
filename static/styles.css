@@ -54,8 +54,7 @@ body {
 @media screen and (max-width: 600px) {
   div.typewrite {
     font-size: 28px;
-    font-weight: bold;
-    font-family: 'Impact';
+    font-family: 'Notable', sans-serif;
   }
 }
 
