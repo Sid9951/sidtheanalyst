@@ -109,11 +109,13 @@ h1 {
 .left-half{
   width: 60%; 
   float:left; 
+  font-family: 'Orbitron', sans-serif;
 }
 
 .right-half{
   width: 40%; 
   float:right; 
+  font-family: 'Orbitron', sans-serif;
 }
 
 
