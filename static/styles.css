@@ -106,16 +106,36 @@ h1 {
 
 
 
-.left-half{
+
+
+
+
+@media screen and (min-width: 601px) {
+  .left-half{
   width: 60%; 
   float:left; 
   font-family: 'Orbitron', sans-serif;
-}
-
-.right-half{
+  }
+  .right-half{
   width: 40%; 
   float:right; 
   font-family: 'Orbitron', sans-serif;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .left-half{
+  width: 60%; 
+  float:left; 
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px
+  }
+  .right-half{
+  width: 40%; 
+  float:right; 
+  font-family: 'Orbitron', sans-serif;
+  font-size: 15px
+  }
 }
 
 
