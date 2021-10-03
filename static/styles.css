@@ -128,13 +128,13 @@ h1 {
   width: 60%; 
   float:left; 
   font-family: 'Orbitron', sans-serif;
-  font-size: 15px
+  font-size: 10px
   }
   .right-half{
   width: 40%; 
   float:right; 
   font-family: 'Orbitron', sans-serif;
-  font-size: 15px
+  font-size: 10px
   }
 }
 
