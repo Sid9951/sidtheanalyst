@@ -160,6 +160,10 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     color:  #F34A4E;
   }
+
+  .qn{
+    font-size:35px
+   }
 }
 
 @media screen and (max-width: 600px) {
@@ -168,7 +172,12 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     color:  #F34A4E;
   }
+	
+  .qn{
+    font-size:20px
+  }
 }
+
 
 .container5 {
 	width: 100%;
