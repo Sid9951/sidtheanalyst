@@ -11,7 +11,9 @@
   justify-content: center;
 }
 
-
+* {
+  -webkit-tap-highlight-color: transparent;
+}
 
 /* Simple coloration */
 body {
