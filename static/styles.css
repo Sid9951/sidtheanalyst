@@ -1,43 +1,43 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+}
+
 .container {
   position: relative;
   height: 100vh;
   overflow: auto;
   scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 .slide {
   display: flex;
   height: 100vh;
   scroll-snap-align: start;
   justify-content: center;
-}
-
-* {
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* Simple coloration */
-body {
-  margin: 0;
-}
-.slide {
   font-family: sans-serif;
-  background: #0f010efb;
+  background: #270124fb;
   letter-spacing: 0.1em;
 }
+
 .slide:nth-child(2n) {
   background: #200536;
 }
 
-
+/* Slide one */
 .typewrite {
  
   background: linear-gradient(to right, #ffee10, #F34A4E);
   -webkit-text-fill-color: transparent;
+  background-clip: content-box;
   -webkit-background-clip: text;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow: hidden;
   font-weight:bold;
   text-transform: uppercase;
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto;
   padding: 0%;
   position: absolute;
   top: 50%;
@@ -50,6 +50,7 @@ body {
   div.typewrite {
     font-size: 55px;
     font-family: 'Notable', sans-serif;
+    text-align: center;
   }
 }
 
@@ -61,44 +62,9 @@ body {
   }
 }
 
-/* The typing effect */
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
-}
-
-
-.social-link {
-  display:inline-flex;
-  text-decoration: none;
-}
-
-.sm {
-  color: #F34A4E;
-  font-size: 5rem;
-  transition: 0.5s;
-}
-
-.cm{
-  color: #fde5e6;
-}
-
-.owner {
-  text-align: center;
-  color: rgb(175, 174, 174);
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.89);
-}
-
-.sm:hover {
-  color: #ffee10;
-}
-
-article {
-  position: relative;
-  top: 50%;
-  text-align: center;
-  transform: translate(0, -50%);
-  padding: 1rem;
 }
 
 h1 {
@@ -107,80 +73,43 @@ h1 {
 }
 
 
-
-
-
-
-
-@media screen and (min-width: 601px) {
-  .left-half{
-  width: 60%; 
-  float:left; 
-  font-family: 'Orbitron', sans-serif;
-  }
-  .right-half{
-  width: 40%; 
-  float:right; 
-  font-family: 'Orbitron', sans-serif;
-  }
+/* Slide two */
+.container5 {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background: rgb(26, 188, 156);
+	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
-@media screen and (max-width: 600px) {
-  .left-half{
-  width: 60%; 
-  float:left; 
-  font-family: 'Orbitron', sans-serif;
-  font-size: 10px
-  }
-  .right-half{
-  width: 40%; 
-  float:right; 
-  font-family: 'Orbitron', sans-serif;
-  font-size: 10px
-  }
+.avatar {
+	width: 170px;
+	height: 170px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+  object-fit: cover;
+
 }
 
-
-.skills {
-  float: left;
-  width: 35%;
-  padding: 10px;
+img{
+  width: 100%;
+  height: 100%;
 }
 
 
 
-@media screen and (max-width: 600px) {
-  .skills {
-    width: 100%;
-    display: block;
-    margin-bottom: 0px;
-  }
-}
-
-/* Style the counter cards */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.restxt{
-  font-family: 'Zen Dots', cursive;}
-
-
-.logo{
-  color: #f1f1f1;
-  font-family: 'Birthstone Bounce', cursive;
-  font-size: 60px;
-  padding: 20px;
-  text-shadow: 2px 2px 8px #160909;
-}
-
-
+/* Slide three */
 @media screen and (min-width: 601px) {
   .about {
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Orbitron', sans-serif;
     color:  #F34A4E;
   }
@@ -203,33 +132,82 @@ h1 {
 }
 
 
-.container5 {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-  background: rgb(26, 188, 156);
-	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
-	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
+
+/* Slide four */
+.logo{
+  color: #f1f1f1;
+  font-family: 'Birthstone Bounce', cursive;
+  font-size: 60px;
+  padding: 20px;
+  text-shadow: 2px 2px 8px #160909;
 }
 
+.restxt{
+  font-family: 'Zen Dots', cursive;}
 
-.avatar {
-	width: 170px;
-	height: 170px;
-	box-sizing: border-box;
-	border: 5px white solid;
-	border-radius: 50%;
-	overflow: hidden;
-	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-  object-fit: cover;
 
+
+
+
+/* Slide five */
+@media screen and (min-width: 601px) {
+  .left-half{
+  width: 60%; 
+  float:left; 
+  font-family: 'Orbitron', sans-serif;
+  }
+  .right-half{
+  width: 40%; 
+  float:right; 
+  font-family: 'Orbitron', sans-serif;
+  }
 }
 
-img{
-  width: 100%;
-  height: 100%;
+@media screen and (max-width: 600px) {
+  .left-half{
+  width: 60%; 
+  float:left; 
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px
+  }
+  .right-half{
+  width: 40%; 
+  float:right; 
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px
+  }
 }
+
+article {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  transform: translate(0, -50%);
+  padding: 1rem;
+}
+
+.social-link {
+  display:inline-flex;
+  text-decoration: none;
+}
+
+.sm {
+  color: #F34A4E;
+  font-size: 5rem;
+  transition: 0.5s;
+}
+
+.sm:hover {
+  color: #ffee10;
+}
+
+.cm{
+  color: #fde5e6;
+}
+
+.owner {
+  text-align: center;
+  color: rgb(175, 174, 174);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.89);
+}
+
