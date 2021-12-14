@@ -81,21 +81,21 @@ h1 {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-  background: rgb(26, 188, 156);
+  	background: rgb(26, 188, 156);
 	background: -moz-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 	background: -webkit-linear-gradient(-45deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 	background: linear-gradient(135deg, rgba(26, 188, 156, 1) 0%, rgba(142, 68, 173, 1) 100%);
 }
 
 .avatar {
-	width: 220px;
-	height: 220px;
+	width: 210px;
+	height: 210px;
 	box-sizing: border-box;
 	border: 5px white solid;
 	border-radius: 50%;
 	overflow: hidden;
 	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
-  object-fit: cover;
+  	object-fit: cover;
 
 }
 
